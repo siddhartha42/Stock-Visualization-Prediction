@@ -32,8 +32,8 @@ app.layout = html.Div([
         html.Div([
             html.Button(['Stock price'], id="button-1", className='Button'),
             html.Button(['Indicators'], id="button-2", className='Button'),
-            dcc.Input(id='input-val', value='Number of Days', type='text',className="input"),
-            html.Button(['Forecast'], id="button-3", n_clicks='0' , className='Button'),
+            #dcc.Input(id='input-val', value='Number of Days', type='text',className="input"),
+            #html.Button(['Forecast'], id="button-3", n_clicks='0' , className='Button'),
         ],className="forecast"),
     ],
     className="nav"),
@@ -46,7 +46,7 @@ app.layout = html.Div([
         html.Div(children=[], id="description", className="decription_ticker"),
         dcc.Graph(id="graphs-content"),
         dcc.Graph(id="main-content"),
-        dcc.Graph (id="forecast-content"),
+        #dcc.Graph (id="forecast-content"),
     ],
     className="content")
 ],className="container")
