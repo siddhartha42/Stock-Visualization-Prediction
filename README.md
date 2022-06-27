@@ -11,3 +11,5 @@ A web app made with dash and yfinance that shows relevant charts and graphs upon
 6.Select start date and end date and press stock price to get candle stick chart of open and close prices.
 7.Press Indicators to get 20 day avg line graph.
 8.ML still in progress.
+
+Link to web app: https://stock-vis-prediction.herokuapp.com/
