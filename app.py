@@ -8,7 +8,6 @@ import yfinance as yf
 import pandas as pd
 import plotly.graph_objs as go
 import plotly.express as px
-from .. import model
  
 app = dash.Dash(__name__)
 server = app.server
