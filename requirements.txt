@@ -12,7 +12,7 @@ crayons==0.4.0
 cryptography==36.0.1
 cycler==0.11.0
 dash==2.5.1
-dash-core-components==1.12.1
+dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-renderer==1.8.2
 dash-table==4.10.1
