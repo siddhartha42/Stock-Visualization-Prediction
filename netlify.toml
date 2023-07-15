@@ -1,0 +1,9 @@
+[build]
+# Set the build environment variables
+  environment = { PG_CONFIG = "/usr/bin/pg_config" }
+  
+[build.environment]
+# Add other environment variables if needed
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
